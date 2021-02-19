@@ -1,0 +1,48 @@
+.topic { 
+  width: 50vw; 
+  min-width: 300px;  
+  display: flex; 
+  margin: 20px auto; 
+  padding: 10px; 
+  box-shadow: 0 0 10px -1px #3333; 
+}  
+
+.topic__vote, 
+.topic__delete {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+vote__score {
+  font-weight: 800;
+}
+
+.form {
+  width: 40vw;
+  min-width: 300px;  
+  display: flex; 
+  margin: 50px auto; 
+  box-shadow: 0 0 10px -1px #3333; 
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.form__input{
+  flex: 3;
+  height: 50px;
+  padding: 10px 20px;
+  font-weight: 200;
+}
+
+.form__submit{
+  flex: 1;
+  height: 74px;
+  padding: 10px 20px;
+  background-color: rgb(26, 24, 24);
+  color: white;
+  font-weight: 700;
+}
+
